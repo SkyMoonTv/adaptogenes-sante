@@ -102,7 +102,7 @@ def generate_article(name: str, slug: str):
           <td><!-- Dosage --></td>
           <td class="product-rating">⭐ X.X/5</td>
           <td>XX,XX€</td>
-          <td><a href="https://www.amazon.fr/dp/ASIN?tag=TON-TAG-21" class="btn-table-amazon" target="_blank" rel="noopener sponsored">Voir sur Amazon</a></td>
+          <td><a href="https://www.amazon.fr/dp/ASIN?tag=adaptogene-21" class="btn-table-amazon" target="_blank" rel="noopener sponsored">Voir sur Amazon</a></td>
         </tr>
         <!-- TODO: Ajouter 4 autres produits -->
       </tbody>
