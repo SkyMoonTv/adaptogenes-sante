@@ -171,16 +171,44 @@ p {
 
 .nav-logo {
   font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 1.3rem;
+  font-weight: 700;
+  font-size: 1.2rem;
   color: var(--color-forest);
   display: flex;
   align-items: center;
-  gap: var(--space-sm);
+  gap: 10px;
+  letter-spacing: -0.02em;
 }
 
-.nav-logo .logo-icon {
-  font-size: 1.5rem;
+.nav-logo .logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform var(--transition-fast);
+}
+
+.nav-logo:hover .logo-img {
+  transform: scale(1.08) rotate(-3deg);
+}
+
+.nav-logo .logo-text {
+  font-size: 1.15rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-forest) 0%, var(--color-forest-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav-logo .logo-accent {
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.3em;
 }
 
 .nav-links {
