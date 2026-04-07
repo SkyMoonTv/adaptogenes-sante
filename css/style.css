@@ -19,8 +19,8 @@
   --color-gold-dark: #a68a2e;
   --color-earth: #8b6f47;
   --color-text: #2c2c2c;
-  --color-text-light: #6b6b6b;
-  --color-text-muted: #999999;
+  --color-text-light: #595959;
+  --color-text-muted: #767676;
   --color-white: #ffffff;
   --color-border: rgba(0, 0, 0, 0.08);
   --color-shadow: rgba(26, 58, 42, 0.08);
@@ -590,7 +590,7 @@ p {
   margin-bottom: var(--space-md);
 }
 
-.visual-card h4 {
+.visual-card h3 {
   margin-bottom: var(--space-xs);
   font-size: 0.95rem;
 }
